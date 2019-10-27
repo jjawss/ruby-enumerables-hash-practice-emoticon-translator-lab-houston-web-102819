@@ -1,7 +1,7 @@
 # require modules here
 require "yaml"
 
-def load_library
+def load_library(file_path)
 cnf = YAML::load(File.open('emoticons.yml'))
 end
 
