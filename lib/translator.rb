@@ -2,7 +2,7 @@
 require "yaml"
 
 def load_library(file_path)
-cnf = YAML::load(File.open('emoticons.yml'))
+ yml.load file_path
 end
 
 def get_japanese_emoticon
