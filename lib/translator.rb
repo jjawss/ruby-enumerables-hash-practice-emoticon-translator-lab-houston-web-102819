@@ -4,7 +4,6 @@ require "yaml"
 def load_library(file_path)
  YAML.load_file(file_path)
  hash = {"get_meaning": {}, "get_emoticon": {}}
- puts hash[:get_meaning][0]
  return hash
 end
 
