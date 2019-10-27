@@ -2,7 +2,7 @@
 require "yaml"
 
 def load_library(file_path)
- hash = YAML.load file_path
+ hash = YAML.load_file(file_path)
  puts hash
 end
 
